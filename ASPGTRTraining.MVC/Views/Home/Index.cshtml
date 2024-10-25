@@ -15,7 +15,6 @@
             border-radius: 5px;
         }
 
-        /* Optional: Add padding and margin to the items */
         .department-item {
             margin-bottom: 20px;
         }
@@ -28,13 +27,10 @@
         Learn about <a href="https://learn.microsoft.com/aspnet/core" class="text-decoration-none">building Web apps with ASP.NET Core</a>.
     </p>
 
-    @* Placeholder for the loop (if needed) *@
-    @* @{
-    for (int i = 1; i <= 5; i++)
-    {
-    // <a asp-action="index" asp-controller="Home" asp-route-Id="@Id" class="btn btn-success">Link @Id</a>
-    }
-    } *@
+   
+    <div class="my-4">
+        <a asp-action="DepartmentSave" asp-controller="Home" class="btn btn-primary">Create New Department</a>
+    </div>
 
     <div class="row">
         @foreach (var item in Model)

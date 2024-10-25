@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.mvc\\controllers\\designationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\controllers\\designationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.mvc\\views\\employee\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\views\\employee\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.mvc\\views\\employee\\employeesave.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\views\\employee\\employeesave.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.mvc\\views\\home\\departmentsave.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\views\\home\\departmentsave.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.mvc\\views\\designation\\designationsave.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,6 +23,14 @@
       "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\views\\designation\\designation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.mvc\\controllers\\designationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\controllers\\designationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -23,28 +39,24 @@
       "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.mvc\\views\\employee\\employeesave.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\views\\employee\\employeesave.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.mvc\\views\\employee\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\views\\employee\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.mvc\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.dataaccess\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|solutionrelative:aspgtrtraining.dataaccess\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.dataaccess\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|solutionrelative:aspgtrtraining.dataaccess\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.dataaccess\\repositories\\interface\\iemployeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|solutionrelative:aspgtrtraining.dataaccess\\repositories\\interface\\iemployeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.mvc\\views\\home\\departmentsave.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\views\\home\\departmentsave.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.dataaccess\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|solutionrelative:aspgtrtraining.dataaccess\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.dataaccess\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,16 +67,8 @@
       "RelativeMoniker": "D:0:0:{1D9D791B-4E3C-4EC8-96E1-394E6F8C62C8}|ASPGTRTraining.MVC\\ASPGTRTraining.MVC.csproj|solutionrelative:aspgtrtraining.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.dataaccess\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|solutionrelative:aspgtrtraining.dataaccess\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.dataaccess\\repositories\\implement\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|solutionrelative:aspgtrtraining.dataaccess\\repositories\\implement\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.dataaccess\\repositories\\interface\\iemployeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{528EF330-D632-4F0F-AEB4-A6AAE91B6A2F}|ASPGTRTraining.DataAccess\\ASPGTRTraining.DataAccess.csproj|solutionrelative:aspgtrtraining.dataaccess\\repositories\\interface\\iemployeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C3222A4-7530-4D5B-9BE5-ECA50511355E}|ASPGTRTraining.Model\\ASPGTRTraining.Model.csproj|c:\\users\\abdullah\\desktop\\abdullah matin\\aspgtrtraining\\aspgtrtraining.model\\dto\\emplistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,12 +93,64 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 216,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ASPGTRTraining.MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T19:14:16.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeSave.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Employee\\EmployeeSave.cshtml",
+              "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Views\\Employee\\EmployeeSave.cshtml",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Employee\\EmployeeSave.cshtml",
+              "RelativeToolTip": "ASPGTRTraining.MVC\\Views\\Employee\\EmployeeSave.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T13:06:12.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DesignationSave.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Designation\\DesignationSave.cshtml",
+              "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Views\\Designation\\DesignationSave.cshtml",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Designation\\DesignationSave.cshtml",
+              "RelativeToolTip": "ASPGTRTraining.MVC\\Views\\Designation\\DesignationSave.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T17:14:01.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Employee\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Views\\Employee\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Employee\\Privacy.cshtml",
+              "RelativeToolTip": "ASPGTRTraining.MVC\\Views\\Employee\\Privacy.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T13:11:28.234Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -102,33 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ASPGTRTraining.MVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAuwC4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T16:40:16.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmployeeSave.cshtml",
-              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Employee\\EmployeeSave.cshtml",
-              "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Views\\Employee\\EmployeeSave.cshtml",
-              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Employee\\EmployeeSave.cshtml",
-              "RelativeToolTip": "ASPGTRTraining.MVC\\Views\\Employee\\EmployeeSave.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAuwDoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T13:06:12.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Designation.cshtml",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Designation\\Designation.cshtml",
               "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Views\\Designation\\Designation.cshtml",
@@ -141,7 +171,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "DepartmentSave.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Home\\DepartmentSave.cshtml",
+              "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Views\\Home\\DepartmentSave.cshtml",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Home\\DepartmentSave.cshtml",
+              "RelativeToolTip": "ASPGTRTraining.MVC\\Views\\Home\\DepartmentSave.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T13:06:29.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASPGTRTraining.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwC4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T16:40:16.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Controllers\\EmployeeController.cs",
@@ -149,25 +204,11 @@
               "RelativeToolTip": "ASPGTRTraining.MVC\\Controllers\\EmployeeController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwCgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:29:50.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T16:29:50.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DesignationSave.cshtml",
-              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Designation\\DesignationSave.cshtml",
-              "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Views\\Designation\\DesignationSave.cshtml",
-              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Designation\\DesignationSave.cshtml",
-              "RelativeToolTip": "ASPGTRTraining.MVC\\Views\\Designation\\DesignationSave.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T17:14:01.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "DesignationController.cs",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Controllers\\DesignationController.cs",
               "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Controllers\\DesignationController.cs",
@@ -180,20 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Employee\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Views\\Employee\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Employee\\Privacy.cshtml",
-              "RelativeToolTip": "ASPGTRTraining.MVC\\Views\\Employee\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T13:11:28.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Controllers\\DepartmentController.cs",
@@ -201,12 +229,11 @@
               "RelativeToolTip": "ASPGTRTraining.MVC\\Controllers\\DepartmentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:30:41.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T16:30:41.522Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.DataAccess\\Repositories\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "ASPGTRTraining.DataAccess\\Repositories\\UnitOfWork.cs",
@@ -214,12 +241,11 @@
               "RelativeToolTip": "ASPGTRTraining.DataAccess\\Repositories\\UnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T15:53:55.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T15:53:55.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Controllers\\HomeController.cs",
@@ -227,12 +253,11 @@
               "RelativeToolTip": "ASPGTRTraining.MVC\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAKgAAAAAAAAAAAAAwMUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:20:38.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T16:20:38.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
               "Title": "IEmployeeRepo.cs",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.DataAccess\\Repositories\\Interface\\IEmployeeRepo.cs",
               "RelativeDocumentMoniker": "ASPGTRTraining.DataAccess\\Repositories\\Interface\\IEmployeeRepo.cs",
@@ -240,25 +265,11 @@
               "RelativeToolTip": "ASPGTRTraining.DataAccess\\Repositories\\Interface\\IEmployeeRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T14:04:36.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T14:04:36.08Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DepartmentSave.cshtml",
-              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Home\\DepartmentSave.cshtml",
-              "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Views\\Home\\DepartmentSave.cshtml",
-              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Home\\DepartmentSave.cshtml",
-              "RelativeToolTip": "ASPGTRTraining.MVC\\Views\\Home\\DepartmentSave.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T13:06:29.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.DataAccess\\Repositories\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "ASPGTRTraining.DataAccess\\Repositories\\IUnitOfWork.cs",
@@ -266,12 +277,11 @@
               "RelativeToolTip": "ASPGTRTraining.DataAccess\\Repositories\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T14:13:26.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T14:13:26.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.DataAccess\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "ASPGTRTraining.DataAccess\\Repositories\\Repository.cs",
@@ -279,12 +289,11 @@
               "RelativeToolTip": "ASPGTRTraining.DataAccess\\Repositories\\Repository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAwwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:08:06.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T18:08:06.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Program.cs",
               "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Program.cs",
@@ -292,12 +301,11 @@
               "RelativeToolTip": "ASPGTRTraining.MVC\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:16:36.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T16:16:36.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "EmployeeRepo.cs",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.DataAccess\\Repositories\\implement\\EmployeeRepo.cs",
               "RelativeDocumentMoniker": "ASPGTRTraining.DataAccess\\Repositories\\implement\\EmployeeRepo.cs",
@@ -305,12 +313,11 @@
               "RelativeToolTip": "ASPGTRTraining.DataAccess\\Repositories\\implement\\EmployeeRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T14:00:42.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T14:00:42.807Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "EmpListDTO.cs",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.Model\\DTO\\EmpListDTO.cs",
               "RelativeDocumentMoniker": "ASPGTRTraining.Model\\DTO\\EmpListDTO.cs",
@@ -318,12 +325,11 @@
               "RelativeToolTip": "ASPGTRTraining.Model\\DTO\\EmpListDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T13:03:35.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T13:03:35.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "DesigListDTO.cs",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.Model\\DTO\\DesigListDTO.cs",
               "RelativeDocumentMoniker": "ASPGTRTraining.Model\\DTO\\DesigListDTO.cs",
@@ -331,12 +337,11 @@
               "RelativeToolTip": "ASPGTRTraining.Model\\DTO\\DesigListDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:35:49.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T16:35:49.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.Model\\Entity\\Employee.cs",
               "RelativeDocumentMoniker": "ASPGTRTraining.Model\\Entity\\Employee.cs",
@@ -344,12 +349,11 @@
               "RelativeToolTip": "ASPGTRTraining.Model\\Entity\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:31:24.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T16:31:24.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "GetByIDview.cshtml",
               "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\Abdullah Matin\\ASPGTRTraining\\ASPGTRTraining.MVC\\Views\\Home\\GetByIDview.cshtml",
               "RelativeDocumentMoniker": "ASPGTRTraining.MVC\\Views\\Home\\GetByIDview.cshtml",
@@ -357,18 +361,7 @@
               "RelativeToolTip": "ASPGTRTraining.MVC\\Views\\Home\\GetByIDview.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T12:50:42.321Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 122,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2024-10-25T12:50:42.321Z"
             }
           ]
         }

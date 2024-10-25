@@ -3,11 +3,30 @@
     ViewData["Title"] = "DepartmentSave";
 }
 
-<div>
-    <form asp-action="DepartmentSave">
-        <input asp-for="Id" type="hidden"/>
-        <input asp-for="Name" type="text" />
-        <button type="submit">Save</button>
+<div class="container mt-5">
+    <h2 class="mb-4">Create or Edit Department</h2>
+
+    <form asp-action="DepartmentSave" method="post">
+        <div class="form-group">
+            <label asp-for="Name" class="form-label">Department Name</label>
+            <input asp-for="Name" type="text" class="form-control" placeholder="Enter department name" />
+        </div>
+
+        <div class="form-group mt-3">
+            <label asp-for="IsDeleted" class="form-label">Is Deleted</label>
+            <input asp-for="IsDeleted" type="checkbox" class="form-check-input ms-2" />
+        </div>
+
+        <div class="form-group mt-3">
+            <label asp-for="UpBy" class="form-label">Uploaded By</label>
+            <input asp-for="UpBy" type="text" class="form-control" placeholder="Enter uploader's name" />
+        </div>
+
+        <div class="form-group mt-3">
+            <label asp-for="CreatedAt" class="form-label">Created At</label>
+            <input asp-for="CreatedAt" type="datetime-local" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-4">Save</button>
     </form>
 </div>
-

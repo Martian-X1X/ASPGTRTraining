@@ -2,9 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\ASPGTRTraining.MVC",
-    "\\ASPGTRTraining.MVC\\Controllers",
-    "\\ASPGTRTraining.MVC\\Views",
-    "\\ASPGTRTraining.MVC\\Views\\Home"
+    "\\ASPGTRTraining.MVC\\Controllers"
   ],
   "SelectedNode": "\\ASPGTRTraining.sln",
   "PreviewInSolutionExplorer": false

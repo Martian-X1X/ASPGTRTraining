@@ -1,52 +1,51 @@
 ﻿@{
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
+<h1 class="text-center mb-4">@ViewData["Title"]</h1>
 
 @section Style {
     <style>
-        p {
-            background: #AFE1AF;
-            color: Red;
-            text-decoration-color: red;
-        }
-
-            p:hover {
-                background: #023020;
-                color: red;
-            }
-
         .employee-item {
             margin-bottom: 20px;
         }
+
+        .privacy-text {
+            background: #AFE1AF;
+            color: red;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+            .privacy-text:hover {
+                background: #023020;
+                color: red;
+            }
     </style>
 }
 
-<p>Use this page to detail your site's privacy policy.</p>
+<p class="privacy-text">Use this page to detail your site's privacy policy.</p>
 
-<!-- Button to redirect to EmployeeSave -->
-<div>
-    <a asp-action="EmployeeSave" asp-controller="Employee" class="btn btn-primary">Add New Employee</a>
+
+<div class="text-center my-4">
+    <a asp-action="EmployeeSave" asp-controller="Employee" class="btn btn-primary btn-lg">Add New Employee</a>
 </div>
 
 <div class="row">
     @foreach (var item in Model)
     {
-        <div class="col-md-6 employee-item">
-            <h2>
-                <a asp-action="EmployeeSave" asp-controller="Employee" asp-route-Id="@item.Id" class="btn btn-success">Link @item.Id</a>
-            </h2>
-            <h2>
-                <a asp-action="EmployeeDelete" asp-controller="Employee" asp-route-Id="@item.Id" class="btn btn-danger">Delete @item.Id</a>
-            </h2>
-            <div class="card">
+        <div class="col-md-6 col-lg-4 employee-item">
+            <div class="card h-100 shadow-sm border-0">
                 <div class="card-body">
-                    <h2 class="card-title">Name: @item.Name</h2>
-                    <h5 class="card-title">Department @item.DeptId</h5>
-                    <h5 class="card-title">Designation @item.DesigID</h5>
+                    <h4 class="card-title text-primary">Name: @item.Name</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Department: @item.DeptId</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Designation: @item.DesigID</h6>
                     <p class="card-text">Address: @item.Address</p>
                     <p class="card-text">City: @item.City</p>
                     <p class="card-text">Phone Number: @item.Phone</p>
+                </div>
+                <div class="card-footer d-flex justify-content-around">
+                    <a asp-action="EmployeeSave" asp-controller="Employee" asp-route-Id="@item.Id" class="btn btn-outline-success btn-sm">Edit</a>
+                    <a asp-action="EmployeeDelete" asp-controller="Employee" asp-route-Id="@item.Id" class="btn btn-outline-danger btn-sm">Delete</a>
                 </div>
             </div>
         </div>
@@ -54,5 +53,5 @@
 </div>
 
 @section jekono {
-    <p>This is from Privacy</p>
+    <p class="privacy-text">This is from Privacy</p>
 }
