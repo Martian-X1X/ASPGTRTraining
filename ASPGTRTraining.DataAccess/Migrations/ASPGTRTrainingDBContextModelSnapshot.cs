@@ -52,6 +52,36 @@ namespace ASPGTRTraining.DataAccess.Migrations
                     b.ToTable("departments", (string)null);
                 });
 
+            modelBuilder.Entity("ASPGTRTraining.Model.Entity.Designation", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("text")
+                        .HasColumnName("id");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("createdat");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean")
+                        .HasColumnName("isdeleted");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("name");
+
+                    b.Property<string>("UpBy")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("upby");
+
+                    b.HasKey("Id")
+                        .HasName("pk_designations");
+
+                    b.ToTable("designations", (string)null);
+                });
+
             modelBuilder.Entity("ASPGTRTraining.Model.Entity.Employee", b =>
                 {
                     b.Property<string>("Id")
@@ -76,6 +106,15 @@ namespace ASPGTRTraining.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("deptid");
+
+                    b.Property<string>("DesigID")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("desigid");
+
+                    b.Property<string>("DesignationId")
+                        .HasColumnType("text")
+                        .HasColumnName("designationid");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean")
@@ -102,6 +141,9 @@ namespace ASPGTRTraining.DataAccess.Migrations
                     b.HasIndex("DeptId")
                         .HasDatabaseName("ix_employees_deptid");
 
+                    b.HasIndex("DesignationId")
+                        .HasDatabaseName("ix_employees_designationid");
+
                     b.ToTable("employees", (string)null);
                 });
 
@@ -114,7 +156,14 @@ namespace ASPGTRTraining.DataAccess.Migrations
                         .IsRequired()
                         .HasConstraintName("fk_employees_departments_deptid");
 
+                    b.HasOne("ASPGTRTraining.Model.Entity.Designation", "Designation")
+                        .WithMany()
+                        .HasForeignKey("DesignationId")
+                        .HasConstraintName("fk_employees_designations_designationid");
+
                     b.Navigation("Dept");
+
+                    b.Navigation("Designation");
                 });
 #pragma warning restore 612, 618
         }

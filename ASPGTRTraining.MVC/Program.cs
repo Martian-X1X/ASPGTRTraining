@@ -1,4 +1,7 @@
 using ASPGTRTraining.DataAccess;
+using ASPGTRTraining.DataAccess.Repositories;
+using ASPGTRTraining.DataAccess.Repositories.implement;
+using ASPGTRTraining.DataAccess.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,8 +14,8 @@ builder.Services.AddDbContext<ASPGTRTrainingDBContext>(option =>
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
-var app = builder.Build();
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+    var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

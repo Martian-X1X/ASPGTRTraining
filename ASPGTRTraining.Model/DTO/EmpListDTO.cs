@@ -18,7 +18,9 @@ namespace ASPGTRTraining.Model.DTO
 
         public string Phone { get; set; } = string.Empty;
 
-        public string DeptId { get; set; } = string.Empty;  // Add DeptId
+        public string DeptId { get; set; } = string.Empty;
+
+        public string DesigID { get; set;} = string.Empty;
     }
 
 }
