@@ -1,49 +1,59 @@
-﻿using ASPGTRTraining.DataAccess;
+﻿using ASPGTRTraining.DataAccess.Repositories;
+using ASPGTRTraining.DataAccess.Repositories.Interface;
 using ASPGTRTraining.Model.DTO;
 using ASPGTRTraining.Model.Entity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace ASPGTRTraining.MVC.Controllers
 {
     public class EmployeeController : Controller
     {
-        private readonly ASPGTRTrainingDBContext db;
+        private readonly IUnitOfWork unitOfWork;
 
-        public EmployeeController(ASPGTRTrainingDBContext db)
+        public EmployeeController(IUnitOfWork unitofWork)
         {
-            this.db = db;
+            unitOfWork = unitofWork;
         }
 
-        public async Task<IActionResult> privacy()
+        public async Task<IActionResult> Privacy()
         {
-            var employees = await db.Employees.ToListAsync();
+            var employees = await unitOfWork.EmployeeRepo.GetIncludeDept();
             return View(employees);
         }
 
         public async Task<IActionResult> TotalEmployeeCount()
         {
-            var total = await db.Employees.CountAsync();
+            var total = (await unitOfWork.EmployeeRepo.GetAll()).Count;
             return Ok(total);
         }
 
-        public async Task<IActionResult> GetByEmpID(string Id)
+        public async Task<IActionResult> GetByEmpID(string id)
         {
-            var employee = await db.Employees.SingleOrDefaultAsync(e => e.Id == Id);
-            if (employee is null) return NotFound();
+            var employee = await unitOfWork.EmployeeRepo.GetById(id);
+            if (employee is null)
+            {
+                return NotFound();
+            }
             return Ok(employee);
         }
 
         [HttpGet]
-        public async Task<IActionResult> EmployeeSave(string Id)
+        public async Task<IActionResult> EmployeeSave(string id)
         {
-            ViewBag.Departments = await db.Departments.ToListAsync();
-            ViewBag.Designations = await db.Designations.ToListAsync();
+            ViewBag.Departments = await unitOfWork.DepartmentRepo.GetAll();
+            ViewBag.Designations = await unitOfWork.DesignationRepo.GetAll();
 
-            if (string.IsNullOrEmpty(Id)) return View();
+            if (string.IsNullOrEmpty(id))
+            {
+                return View();
+            }
 
-            var employee = await db.Employees.SingleOrDefaultAsync(e => e.Id == Id);
-            if (employee is null) return NotFound();
+            var employee = await unitOfWork.EmployeeRepo.GetById(id);
+            if (employee is null)
+            {
+                return NotFound();
+            }
 
             return View(employee);
         }
@@ -51,16 +61,16 @@ namespace ASPGTRTraining.MVC.Controllers
         [HttpPost]
         public async Task<IActionResult> EmployeeSave(EmpListDTO model)
         {
-            // Verify department existence
-            if (!await db.Departments.AnyAsync(d => d.Id == model.DeptId))
+            var department = await unitOfWork.DepartmentRepo.GetById(model.DeptId);
+            if (department == null)
             {
                 ModelState.AddModelError("DeptId", "The selected department does not exist.");
                 return View(model);
             }
 
-            // Verify designation existence if applicable
+
             if (!string.IsNullOrEmpty(model.DesigID) &&
-                !await db.Designations.AnyAsync(d => d.Id == model.DesigID))
+                await unitOfWork.DesignationRepo.GetById(model.DesigID) is null)
             {
                 ModelState.AddModelError("DesignationId", "The selected designation does not exist.");
                 return View(model);
@@ -68,8 +78,11 @@ namespace ASPGTRTraining.MVC.Controllers
 
             if (!string.IsNullOrEmpty(model.Id))
             {
-                var employee = await db.Employees.SingleOrDefaultAsync(e => e.Id == model.Id);
-                if (employee is null) return NotFound();
+                var employee = await unitOfWork.EmployeeRepo.GetById(model.Id);
+                if (employee is null)
+                {
+                    return NotFound();
+                }
 
                 employee.Name = model.Name;
                 employee.Address = model.Address;
@@ -77,7 +90,8 @@ namespace ASPGTRTraining.MVC.Controllers
                 employee.Phone = model.Phone;
                 employee.DeptId = model.DeptId;
                 employee.DesigID = model.DesigID;
-                await db.SaveChangesAsync();
+
+                unitOfWork.EmployeeRepo.Edit(employee);
             }
             else
             {
@@ -90,24 +104,27 @@ namespace ASPGTRTraining.MVC.Controllers
                     DeptId = model.DeptId,
                     DesigID = model.DesigID
                 };
-                await db.AddAsync(newEmployee);
-                await db.SaveChangesAsync();
+
+                unitOfWork.EmployeeRepo.Add(newEmployee);
             }
 
-            return RedirectToAction(nameof(privacy));
+            await unitOfWork.EmployeeRepo.Save();
+            return RedirectToAction(nameof(Privacy));
         }
 
-
         [HttpGet]
-        public async Task<IActionResult> EmployeeDelete(string Id)
+        public async Task<IActionResult> EmployeeDelete(string id)
         {
-            var employee = await db.Employees.SingleOrDefaultAsync(e => e.Id == Id);
-            if (employee is null) return NotFound();
+            var employee = await unitOfWork.EmployeeRepo.GetById(id);
+            if (employee is null)
+            {
+                return NotFound();
+            }
 
-            db.Employees.Remove(employee);
-            await db.SaveChangesAsync();
+            unitOfWork.EmployeeRepo.Delete(employee);
+            await unitOfWork.EmployeeRepo.Save();
 
-            return RedirectToAction(nameof(privacy));
+            return RedirectToAction(nameof(Privacy));
         }
     }
 }

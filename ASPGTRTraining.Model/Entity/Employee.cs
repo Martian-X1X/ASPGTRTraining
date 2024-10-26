@@ -20,7 +20,7 @@ namespace ASPGTRTraining.Model.Entity
 
         public Department? Dept { get; set; }
 
-        public string DesigID { get; set; }
+        public string DesigID { get; set; } = string.Empty
 
         public Designation? Designation { get; set; }
 
