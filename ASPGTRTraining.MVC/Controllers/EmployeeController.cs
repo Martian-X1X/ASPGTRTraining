@@ -113,9 +113,9 @@ namespace ASPGTRTraining.MVC.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> EmployeeDelete(string id)
+        public async Task<IActionResult> EmployeeDelete(string Id)
         {
-            var employee = await unitOfWork.EmployeeRepo.GetById(id);
+            var employee = await unitOfWork.EmployeeRepo.GetById(Id);
             if (employee is null)
             {
                 return NotFound();
@@ -126,5 +126,6 @@ namespace ASPGTRTraining.MVC.Controllers
 
             return RedirectToAction(nameof(Privacy));
         }
+
     }
 }

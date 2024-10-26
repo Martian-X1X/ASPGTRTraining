@@ -18,13 +18,25 @@
 
             .privacy-text:hover {
                 background: #023020;
-                color: red;
+                color: white;
             }
+
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            }
+
+        .card-footer .btn {
+            min-width: 80px;
+        }
     </style>
 }
 
 <p class="privacy-text">Add The Employee Information.</p>
-
 
 <div class="text-center my-4">
     <a asp-action="EmployeeSave" asp-controller="Employee" class="btn btn-primary btn-lg">Add New Employee</a>

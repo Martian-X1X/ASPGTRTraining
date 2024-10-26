@@ -9,9 +9,9 @@ namespace ASPGTRTraining.MVC.Controllers
     {
         private readonly IUnitOfWork unitOfWork;
 
-        public DepartmentController(IUnitOfWork unitOfWork)
+        public DepartmentController(IUnitOfWork unitofWork)
         {
-            unitOfWork = unitOfWork;
+            unitOfWork = unitofWork;
         }
 
         public async Task<IActionResult> Index(string Id)

@@ -15,17 +15,25 @@ namespace ASPGTRTraining.DataAccess.Repositories.implement
         public EmployeeRepo(ASPGTRTrainingDBContext db) : base(db)
         {
         }
+        public async Task<Employee?> GetById(string id)
+        {
+            return await db.Employees.FindAsync(id);
+        }
+
 
         public async Task<List<EmpListDTO>> GetIncludeDept()
         {
             return await db.Employees.Include(d => d.Dept)
-                .Select(x=> new EmpListDTO{
+                .Select(x => new EmpListDTO
+                {
+                    Id = x.Id,
                     Address = x.Address,
                     DeptId = x.DeptId,
                     Name = x.Name,
                     City = x.City,
                     Phone = x.Phone
-            }).ToListAsync();
+                }).ToListAsync();
         }
+
     }
 }
